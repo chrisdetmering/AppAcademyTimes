@@ -1,42 +1,26 @@
 
-#overlay { 
-  height: 80px;
+
+
+
+
+
+
+
+
+.main-content { 
+  position: relative; 
 }
 
-#search-modal { 
+
+.overlay { 
   position: absolute;
+  top: 0; 
+  bottom: 0;
   width: 100vw;
   left: calc(-50vw + 50%);
-  height: 70px; 
-  border-bottom: 1px solid $light-gray;
+  background-color: rgba(255, 255, 255, 0.79);
 }
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// .search-button { 
-//   background-color: white;
-//   border: 1px solid $light-gray;
-//   color: $gray;
-//   height: 20px;
-//   justify-content: center;
-// }
-
-// .search-input { 
-//   border: 1px solid $light-gray;
-//   height: 20px;
-// }
