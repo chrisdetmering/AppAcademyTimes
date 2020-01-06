@@ -1,0 +1,42 @@
+
+#overlay { 
+  height: 80px;
+}
+
+#search-modal { 
+  position: absolute;
+  width: 100vw;
+  left: calc(-50vw + 50%);
+  height: 70px; 
+  border-bottom: 1px solid $light-gray;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// .search-button { 
+//   background-color: white;
+//   border: 1px solid $light-gray;
+//   color: $gray;
+//   height: 20px;
+//   justify-content: center;
+// }
+
+// .search-input { 
+//   border: 1px solid $light-gray;
+//   height: 20px;
+// }
