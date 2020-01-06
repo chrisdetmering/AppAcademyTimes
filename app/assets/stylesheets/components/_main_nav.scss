@@ -46,3 +46,18 @@
 .right-nav i {
   font-size: 15px; 
 }
+
+
+@media all and (max-width: 1000px) { 
+  .right-nav li { 
+    display: none; 
+  }
+
+  .right-nav li:last-of-type { 
+    display: inline;
+  }
+
+  .left-nav > ul > li { 
+    margin: 0;
+  }
+}

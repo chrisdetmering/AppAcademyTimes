@@ -1,0 +1,100 @@
+.sections-sidebar { 
+  position: fixed; 
+  left: 0px;
+  top: 0px; 
+  display: none;
+  background-color: white;
+  border-right: 1px solid $light-gray;
+  width: 200px;
+  height: 100%;
+  z-index: 1;
+  font-weight: bold; 
+  font-family: $sans-serif; 
+  box-shadow: -1px 4px 6px 8px rgba(0, 0, 0, 0.09);
+  padding: 0 10px 0 25px; 
+}
+
+.sections-sidebar a {  
+  display: inline-block;
+  margin: 5px 0; 
+}
+
+.sections-sidebar ul  {
+  padding: 0 10px 0 15px; 
+}
+.sections-sidebar li { 
+  margin: 5px 0; 
+  padding-left: 10px; 
+}
+
+.sections-sidebar li:hover {  
+  background-color: $lightest-blue;
+}
+
+.sections-sidebar a:hover {  
+  border-bottom: 0px
+}
+
+.expand { 
+  display: block;
+}
+
+.dropdown:after,
+.dropdown:before {
+    content: "";
+    position: absolute; 
+    top: 25%;
+    right: 14px;
+    border-left: 8px solid $light-gray;
+    border-top:  8px solid transparent;
+    border-bottom: 8px solid transparent;
+    width: 0;
+    height: 0;
+}
+.dropdown:after {
+    right: 16px;
+    border-left: 8px solid white;
+    z-index: 1;
+}
+
+
+.dropdown > section {
+    display: none;
+    position: absolute;
+    left: 175px; 
+    height: 100px; 
+    width: 200px; 
+    border: 1px solid $light-gray;
+    background-color: white; 
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown:hover > section {
+    /* applies the following style to uls inside .dropdown */
+    /* but only when .dropdown is being hovered over */
+    display: block;
+    z-index: 2;
+}
+
+.dropdown:hover:after,
+.dropdown:hover:before { 
+  content: "";
+    position: absolute; 
+    right: 24px;
+    border-right: 10px solid white;
+    border-top:  10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 10px solid transparent;
+    width: 0;
+    height: 0;
+    z-index: 3;
+}
+
+.dropdown:hover:after {
+    right: 25px;
+    border-right: 10px solid $light-gray;
+    z-index: 2;
+}

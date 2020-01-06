@@ -2,6 +2,7 @@
 .sections-nav { 
   border-bottom: 1px solid $light-gray;
   font-family: $sans-serif; 
+  margin-bottom: 20px;
 }
 
 
@@ -15,4 +16,11 @@
 
 .sections-nav li:hover { 
   background-color: $light-gray; 
+}
+
+@media all and (max-width: 1000px) { 
+  .sections-nav { 
+    display: none; 
+  }
+
 }

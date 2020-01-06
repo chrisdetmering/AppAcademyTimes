@@ -1,0 +1,82 @@
+.main-content { 
+  font-family: $serif; 
+}
+
+.main-content a { 
+  font-weight: bold;
+}
+
+.authors { 
+  font-size: 12px;
+  color: $gray;
+  margin: 3px 0; 
+}
+
+header { 
+  margin: 5px 0; 
+}
+
+.main-title { 
+  font-size: 25px;
+  font-style: italic;
+}
+
+.main-bullet-list { 
+  list-style-type: disc;
+  padding-left: 15px;
+}
+
+.main-bullet-list li { 
+  margin: 8px 0; 
+}
+
+.comment { 
+  color: $light-blue; 
+  font-family: $sans-serif;
+  font-size: 11px;
+}
+
+.comment:hover { 
+ border-bottom: 1px solid $light-blue; 
+}
+
+
+.opinion-title { 
+  text-align: center;
+  font-weight: bold;
+}
+
+.opinion-subsection-title { 
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.opinion-bullet-list { 
+  padding-left: 15px;
+  margin: 5px 0; 
+  font-size: 12px;
+  font-weight: bold; 
+  list-style-type: disc;
+}
+
+.email-sign-up { 
+  margin-top: 10px;
+}
+
+
+.sign-up-input { 
+  border: 1px solid $gray ;
+  border-right: none;
+  width: 300px;
+  height: 29px;
+  float: left;
+}
+
+.sign-up-button { 
+  float: left;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  margin-bottom: 10px;
+}
+
+
