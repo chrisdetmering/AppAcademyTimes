@@ -1,9 +1,55 @@
+.search-modal.expand { 
+  height: 100px; 
+  border-top: 1px solid $light-gray; 
+  border-bottom: 1px solid $light-gray; 
+  box-shadow: 0 4px 10px -8px gray;
+}
 
 
+.search-modal { 
+  height: 0; 
+  position: relative;
+  overflow: hidden;
+  width: 100vw;
+  left: calc(-50vw + 50%);
+  background-color: white;
+  transition: height 500ms; 
+  margin-top: -6px; 
+  text-align: center;
+}
 
 
+.search-modal .input-wrapper { 
+  max-width: 40%;
+  min-width: 300px;
+  margin: 38px auto;
+}
+
+.input-wrapper > input { 
+  border: 1px solid $light-gray; 
+  height: 20px;
+  width: 500px;
+  box-shadow: inset 2px 3px 3px rgba(0,0,0,0.07)
+}
 
 
+.input-wrapper > button { 
+  border: 1px solid $light-gray;
+  height: 10px;
+  width: 20px;
+  background: white;
+  color: $gray; 
+  font-size: 10px;
+}
+
+.search-modal > button:hover { 
+  background: $light-gray;
+}
+
+// .close { 
+//   background-color: $gray;
+//   color: white; 
+// }
 
 
 
